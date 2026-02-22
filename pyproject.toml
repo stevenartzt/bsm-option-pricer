@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "bsm-option-pricer"
+version = "1.0.0"
+description = "Black-Scholes option pricing engine with Greeks, IV solver, and sector-specific defaults"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Steven Artzt"},
+]
+dependencies = [
+    "scipy>=1.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/stevenartzt/bsm-option-pricer"
+Repository = "https://github.com/stevenartzt/bsm-option-pricer"
+Issues = "https://github.com/stevenartzt/bsm-option-pricer/issues"
