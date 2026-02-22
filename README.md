@@ -164,4 +164,4 @@ This module provides proper Black-Scholes repricing so you can:
 
 ## License
 
-[MIT](LICENSE) © 2026 Steven Artzt
+[Source Available](LICENSE) © 2026 Steven Artzt
